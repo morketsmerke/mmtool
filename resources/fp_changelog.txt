@@ -1,0 +1,74 @@
+29.07.2023 - Test funkcji writeChangelogEntry
+28.07.2023 - Nocny test
+14.04.2023 - Utworzenie kategorii dla dokumentacji Immudex
+23.12.2022 - Dodanie "Instalacja własnościowego sterownika graficznego Nvidii na Debian 11"
+10.12.2022 - Zmiana layoutu dużych materiałów na terminallog
+10.12.2022 - Odświerzenie artykułu 'Ściąga z PYTHONga'
+10.09.2022 - Dodanie "Python. Ćwiczenia." na terminallog
+01.09.2022 - Wydanie immudex w wersji 0.0.0
+01.09.2022 - Dodanie "Red Hat Enterprise Linux 9 - RHCSA" na terminallog
+24.07.2022 - Dodanie "Uruchomienie skryptu podczas ładowania systemu - jednostka systemd"
+20.05.2022 - Dodanie "Przenoszenie systemu operacyjnego z maszyny wirtualnej na fizyczny komputer"
+15.05.2022 - Zmiana FAQ na Tips&amp;Tricks
+13.05.2022 - Dodanie "Podłączanie 7-calowego ekranu dotykowego (1024x600) do Raspberry Pi"
+07.05.2022 - Przeniesienie strony na adres https://morketsmerke.github.io
+06.05.2022 - Wydanie greenOS 1.4
+05.05.2022 - Zmiany w greenOS. Wydanie wersji greenOS 1.3 (btw i use Arch)
+27.04.2022 - Wydanie OTP w wersji 1.0.5
+17.04.2022 - Wydanie OTP w wersji 1.0.4
+16.04.2022 - Wydanie OTP w wersji 1.0.3
+31.03.2022 - Przeniesienie strony na inny serwer. Powrót do domeny morketsmerke.net. Home Sweet Home.
+29.03.2022 - Test GitHub CLI
+27.03.2022 - Wydanie greenOS greenServer
+27.03.2022 - Wydanie wersji greenOS 1.2
+27.02.2022 - Usunięcie dotychczasowej serii "Jak działa Linux". Wymaga ona przeredagowania.
+13.02.2022 - Wydanie OTP w wersji 1.0.2
+13.02.2022 - Wydanie greenOSTe 9.0.1
+11.02.2022 - Upublicznienie archiwum z greenOSAE
+11.02.2022 - Przeniesienie danych z ftp.morketsmerke.net na serwis sourceforge.net oraz aktualizacja adresów odnośników na stronie greenOS
+30.01.2022 - Wydanie greenOS Ratpoison
+30.01.2022 - Wydanie greenOS 1.1
+22.01.2022 - Dodanie kolejnego rozdziału do serii "Jak działa Linux?"
+07.01.2022 - Dodanie kolejnego rozdziału do serii "Jak działa Linux?"
+04.01.2022 - Dodanie "linux/Szyfrowany rootfs na greenOSTe"
+30.12.2021 - Wydanie pierwszej wersji greenOS Trisquel edition (Torwards the sun)
+23.12.2021 - Dodanie "Szyfrowany rootfs na greenOS"
+22.12.2021 - Wydanie OTP w wersji 1.0.1
+19.12.2021 - Dodanie kolejnego rozdziału do serii "Jak działa Linux?"
+12.12.2021 - Wydanie pierwszej wersji OTP o nazwie kodowej "Wise choice".
+06.12.2021 - Rozpoczęcie prac nad OTP.
+05.12.2021 - Reaktywacja projektu greenOS (Wydanie wersji 1 [Torwards the sun])
+18.11.2021 - Dodanie kolejnego rodziału do serii "Jak działa Linux?"
+14.11.2021 - Update materiału "Parabola GNU/Linux-libre"
+12.11.2021 - Dodanie "Parabola GNU/Linux-libre"
+28.10.2021 - Dodanie kolejnego rozdziału do serii "Jak działa Linux?"
+15.10.2021 - Dodanie kolejnego rozdziału do serii "Jak działa Linux?"
+03.10.2021 - Dodanie kolejnego rozdziału do serii "Jak działa Linux?"
+26.09.2021 - Przeniesie morketsmerke.net na morketsmerke.github.io
+24.09.2021 - Zwieszenie wsparcia dla greenOS
+19.09.2021 - Dodanie "greenOSAE"
+05.09.2021 - Dodanie "Raspberry Pi jako przekaźnik bluetooth"
+03.09.2021 - Dodanie "Instalacja systemu z własnego obrazu LiveCD z Debianem"
+02.09.2021 - Dodanie "Własne LiveCD z Debianem"
+21.08.2021 - Wydanie pierwszej oficjalnej wersji greenOS
+30.07.2021 - Dodanie "GNU mailutils jako program mailowy"
+29.07.2021 - Dodanie "Raspberry Pi jako serwer poczty"
+30.06/01.07.2021 - Uruchomienie mirroru Debiana dla stable, oldstable dla architektur amd64 oraz i386
+12-13.06.2021 - Rozpoczęcie prac nad greenOS
+08.06.2021 - Rozpoczęcie serii materiałów "Jak działa Linux?"
+15.05.2021 - Uaktualnienie "Laboratorium sieci VPN".
+15.05.2021 - Dodanie "Sieci VPN" na terminallog.
+07.05.2021 - Dodanie "Konfiguracja HAProxy dla HTTP oraz HTTPS" na terminallog.
+05.05.2021 - Aktualizacja FAQ.
+03.05.2021 - Zmiany w "lost+found".
+02.05.2021 - Dodanie "20 letni Sun Netra T1 jako serwer mailowy z wykorzystaniem NetBSD".
+30.04.2021 - Dodanie "Instalacja NetBSD".
+11.04.2021 - Dodanie "Dziennika OpenBSD".
+04.04.2021 - Zakończenie prac nad obecną formą strony.
+26.03.2021 - Zakończenie przenoszenia treści na nową wersję strony.
+01.11.2020 - Przenosiny zakończone, utworzenie frontpage-a morketsmerke.net.
+28.10.2020 - Rozpoczęcie przenosin na inny sprzęt.
+19.10.2020 - Rozpoczęcie redagowania artykułu Bash Bushido dla terminallog.
+16.10.2020 - Rozpoczęcie przenoszenia treści na nową wersję strony.
+15.10.2020 - Utworznie statycznych podstron dla katalogów.
+14.10.2020 - Rozpoczęcie tworzenia nowej odsłony strony morketsmerke.net.

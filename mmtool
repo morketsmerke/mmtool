@@ -1,0 +1,29 @@
+#!/usr/bin/php -d log_error=Off
+<?php
+function writeChangelogEntry($path, $entry) {
+  $chLog=file_get_contents($path);
+  $chEntry=date("d.m.Y") . " - " . $entry . "\n";
+  $fp = fopen($path, 'w+');
+  fwrite($fp, $chEntry);
+  fwrite($fp, $chLog);
+  fclose($fp); 
+}
+
+function printChangelog($path) {
+  $chFp=file($path);
+  foreach($chFp as $chLine){
+    echo "\t<li>" . trim($chLine) . "</li>\n";
+  }
+}
+
+if ( isset($argv[1]) && ($argv[1] == "frontpage") ) {
+  require("module/frontpage.php");
+} else if ( isset($argv[1]) && ($argv[1] == "immudex") ) {
+  require("module/immudex.php");
+} else {
+  echo "Help!";
+  exit;
+}
+?>
+
+        
