@@ -249,7 +249,7 @@
           <td><?php echo "SHA1: " . getSHA1($branch, $version, $arch); ?></td>
         </tr>
         <tr>
-          <td colspan="3">&bull;&nbsp;<a href="https://github.com/xf0r3m/immudex-testing/blob/main/changelogs/<?php echo $version; ?>.txt">Lista zmian dla wydania</a></td>
+          <td colspan="3">&bull;&nbsp;<a href="https://github.com/xf0r3m/immudex-lhe/blob/main/changelogs/<?php echo $version; ?>.txt">Lista zmian dla wydania</a></td>
         </tr>
       </table>
       <p>
