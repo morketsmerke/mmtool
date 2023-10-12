@@ -19,7 +19,7 @@ for repo in $1; do
   else lcommit=$(lastCommitNewRepo $repo);
   fi
   commitID=$(echo $lcommit | cut -d " " -f 1);
-  shortCommitID=$(echo $commitID | cut -c 34-41);
+  shortCommitID=$(echo $commitID | cut -c 1-7);
   commitMsg=$(echo $lcommit | cut -d " " -f 2-);
   commitLink="${repoSource}/${repo}/commit/${commitID}";
   echo -e "\t<li>${repo} - ${shortCommitID} - <a href=\"${commitLink}\">${commitMsg}</a></li>";
