@@ -1,3 +1,4 @@
+06.09.2023 - Test tokenu
 01.08.2023 - Zmiany na stronie głównej morketsmerke.org oraz nowa strona dla informacji ogólnych o immudex
 14.04.2023 - Utworzenie kategorii dla dokumentacji Immudex
 23.12.2022 - Dodanie "Instalacja własnościowego sterownika graficznego Nvidii na Debian 11"

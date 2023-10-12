@@ -55,7 +55,7 @@
       <p><strong>Ostatnie zgłoszenia w serwisie BugTrack</strong>: <a href="https://bugtrack.morketsmerke.org">https://bugtrack.morketsmerke.org</a></p>
       <ul id="chbugtrack" class="reduced-list" style="height: 100px;">
       <?php
-        $output = shell_exec('ssh user@bugtrack.example.com "/usr/bin/php /home/user/mmtool_btquery.php"');
+        $output = shell_exec('ssh -p 2022 xf0r3m@bugtrack.morketsmerke.org "/usr/bin/php /home/xf0r3m/mmtool_btquery.php"');
         echo $output;
       ?>
       </ul>

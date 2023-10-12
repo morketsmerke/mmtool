@@ -148,6 +148,12 @@
           <td class="centered-text">&#x2714;</td>
         </tr>
         <tr>
+          <td>Przeglądarka LibreWolf</td>
+          <td class="centered-text">&#x2716;</td>
+          <td class="centered-text">&#x2714;</td>
+          <td class="centered-text">&#x2716;</td>
+        </tr>
+        <tr>
           <td>Przeglądarka Mozilla Firefox ESR</td>
           <td class="centered-text">&#x2714;</td>
           <td class="centered-text">&#x2714;</td>
@@ -210,31 +216,33 @@
         <tr>
           <td colspan="3">&bull;&nbsp;<a href="https://github.com/xf0r3m/immudex/blob/main/changelogs/<?php echo $version; ?>.txt">Lista zmian dla wydania</a></td>
         </tr>
+        <!--
         <tr>
           <th colspan="3">&bull;&nbsp;immudex-testing (Debian testing, 13 Trixie)&nbsp;&bull;</th>
-          <?php $branch="testing"; ?>
+          <?php #$branch="testing"; ?>
         </tr>
         <tr>
           <td rowspan="2">64-bit:</td>
-          <?php $version=getVersion($branch); $arch="64"; ?>
-          <td colspan="3"><?php getLink($branch, $version, $arch); ?></td>
+          <?php #$version=getVersion($branch); $arch="64"; ?>
+          <td colspan="3"><?php #getLink($branch, $version, $arch); ?></td>
         </tr>
         <tr>
-          <td><?php echo "CRC: " . getCRC($branch, $version, $arch); ?></td>
-          <td><?php echo "SHA1: " . getSHA1($branch, $version, $arch); ?></td>
+          <td><?php #echo "CRC: " . getCRC($branch, $version, $arch); ?></td>
+          <td><?php #echo "SHA1: " . getSHA1($branch, $version, $arch); ?></td>
         </tr>
         <tr>
           <td rowspan="2">32-bit:</td>
-          <?php $arch="32"; ?>
-          <td colspan="3"><?php getLink($branch, $version, $arch); ?></td>
+          <?php #$arch="32"; ?>
+          <td colspan="3"><?php #getLink($branch, $version, $arch); ?></td>
         </tr>
         <tr>
-          <td><?php echo "CRC: " . getCRC($branch, $version, $arch); ?></td>
-          <td><?php echo "SHA1: " . getSHA1($branch, $version, $arch); ?></td>
+          <td><?php #echo "CRC: " . getCRC($branch, $version, $arch); ?></td>
+          <td><?php #echo "SHA1: " . getSHA1($branch, $version, $arch); ?></td>
         </tr>
         <tr>
           <td colspan="3">&bull;&nbsp;<a href="https://github.com/xf0r3m/immudex-testing/blob/main/changelogs/<?php echo $version; ?>.txt">Lista zmian dla wydania</a></td>
         </tr>
+        -->
         <tr>
           <th colspan="3">&bull;&nbsp;immudex-lhe (oldoldstable, Debian 10 Buster)&nbsp;&bull;</th>
           <?php $branch="lhe"; ?>
@@ -256,6 +264,65 @@
         Domyślnym użytkownikiem jest <strong>user</strong>, dostęp to niego 
         uzyskujemy za pomocą hasła <em>user1</em>. Możemy również skorzystać z
         konta superużytkownika <em>root</em> z hasłem <em>toor</em>.
+      </p>
+      <p>
+        <strong>Meta-Distribution Rolling-Release</strong>
+      </p>
+      <p>
+        Obecnie immudex-testing wydawany jest na zasadzie: 
+        <strong>Meta-Distribution Rolling-Release</strong>.
+        Przez co obrazy płyty wydawane przez autora dystrybucji nie będą już 
+        dostępne. Zatem takie czynności jak 'rewinding' oraz aktualizacje 
+        obrazu nie mają już racji bytu. Obecnie istnieje tylko kod i tylko on
+        się liczy. Jeśli chcemy dokonać jakiś zmian wystarczy dodać swoje 
+        zmiany do pliku bazowego (<em>versions/base.sh</em>).
+      </p> 
+      <p>
+        Zmiany będą publikowane nieregularnie. Tylko i wyłącznie za pomocą 
+        serwisu Git (github.com). Każda aktualizacja będzie wymagała zbudowania
+        nowego obrazu iso.
+      </p>
+      <p>
+        Zmiana podejścia jest efektem dążenia do pełnej bezkosztowości. Gdzie 
+        do tej pory dotyczyła ona jedynie tych użytkowników, którzy budowali
+        immudex od zera. Nie dotyczyła za to ich twórców, którzy muszą ponieść
+        koszta związane z utrzymaniem mirrorów obrazów płyt (nie ma co się 
+        oszukiwać serwis sourceforge.net [ze względów wyłącznie związanych z 
+        prędkością przesyłania] nie jest nalepszym miejscem dystrybucji dużych
+        plików, jaką z pewnością stał by się immudex [rozmiary obrazów co raz 
+        bardziej zbliżają się do 2GB]), serwerów budowania, czy środowisk
+        wirtualizacji na których sprawdzane są obrazy pod względem poprawności
+        działania wielu kluczowych komponentów. Przy słabszych połączeniach 
+        internetowych znacznie szybciej jesteśmy w stanie zbudować immudex
+        niż pobrać obraz płyty. Debian posiada serwery lustrzane w każdym
+        bardziej rozwiniętym kraju świata. Wystarczy ustawić odpowiedni mirror.
+        A mówimy tu wyłącznie o kosztach materialnych, nie został tutaj
+        uwzględniony czas poświęcony na przygotowanie gotowego i sprawnego
+        obrazu. 
+      </p>
+      <p>
+        Warto wziąć również pod uwagę to, że czasmi zdarzy się jakiś 'bug', 
+        coś nie działa lub jakiś plik został zastąpiony przez oryginalny plik z
+        pakietu przez coś zmienia się nieoczekiwanie. Przy tym trybie zmian
+        można wdrażać na bierząco.
+      </p>
+      <p>
+        Zmianie ulegąją również nazwy narzędzi. Wszystkie posiadają teraz 
+        przedrostek 'immudex-'. Alias 'chhome' również.
+      </p>
+      <p>
+        Ostatnie utworzone przez autora obrazy płyt będą dostępne na pod adresem:
+        <a href="https://ftp.morketsmerke.org/archive/immudex-cd">https://ftp.morketsmerke.org/archive/immudex-cd</a>.
+      </p>
+      <p>
+        Nie wykluczone jest także aby wersja stablina przeszła na sam tryb. 
+        Wówczas najprawdopodobniej dojdzie do unifikacji wszystkich trzech 
+        wersji. Użytkownicy będą wybierać poprzez wskazanie konkretnego pliku 
+        bazowego. Wybór będzie pomiędzy LHE a wersją stabilną. Po wersji 
+        testowej pozostanie tylko wykorzystywana gałąź projektu 'xfcedebian', 
+        gdyż jest ona chyba najbardziej przyjemna w obsłudze. Pojawiła się
+        również koncepcja, aby immudex był budowany na dowolnej wersji
+        Debiana, z jednym konkretnym layoutem, z jednym zestawem narzędzi.
       </p>
       <p>
         <strong>Dokumentacja projektu:</strong>
