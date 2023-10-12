@@ -1,3 +1,7 @@
+12.10.2023 - Publikacja immudex w wersji 1.0.6 - aktualizacja curl CVE-2023-38545
+11.10.2023 - Publikacja immudex w wersji 1.0.5
+06.09.2023 - Test tokenu
+01.09.2023 - Zmiana modelu wydawania immudex-testing (Meta-Distribution Rolling-Release)
 01.08.2023 - Zmiany na stronie głównej morketsmerke.org oraz nowa strona dla informacji ogólnych o immudex
 14.04.2023 - Utworzenie kategorii dla dokumentacji Immudex
 23.12.2022 - Dodanie "Instalacja własnościowego sterownika graficznego Nvidii na Debian 11"

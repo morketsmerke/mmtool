@@ -1,3 +1,7 @@
+12.10.2023 - Publikacja immudex w wersji 1.0.6 - aktualizacja curl CVE-2023-38545
+11.10.2023 - Publikacja immudex w wersji 1.0.5
+12.09.2023 - Publikacja immudex w wersji 1.0.4
+01.09.2023 - Zmiana modelu wydawania immudex-testing (Meta-Distribution Rolling-Release)
 27.08.2023 - Publikacja finalnego obrazu płytu dla immudex-testing - wersja 1.1.0
 20.08.2023 - Publikacja immudex-testing w wersji 1.0.9
 16.08.2023 - Publikacja immudex (wersja stabilna) w wersji 1.0.3
