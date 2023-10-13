@@ -149,21 +149,15 @@
         </tr>
         <tr>
           <td>Przeglądarka LibreWolf</td>
-          <td class="centered-text">&#x2716;</td>
           <td class="centered-text">&#x2714;</td>
-          <td class="centered-text">&#x2716;</td>
+          <td class="centered-text">&#x2714;</td>
+          <td class="centered-text">&#x2714;</td>
         </tr>
         <tr>
           <td>Przeglądarka Mozilla Firefox ESR</td>
           <td class="centered-text">&#x2714;</td>
           <td class="centered-text">&#x2714;</td>
           <td class="centered-text">&#x2716;</td>
-        </tr>
-        <tr>
-          <td>Przeglądarka GNU IceCat</td>
-          <td class="centered-text">&#x2716;</td>
-          <td class="centered-text">&#x2716;</td>
-          <td class="centered-text">&#x2714;</td>
         </tr>
         <tr>
           <td>Wirtualizacja KVM (libvirtd + virt-manager):</td>
@@ -281,6 +275,9 @@
         Zmiany będą publikowane nieregularnie. Tylko i wyłącznie za pomocą 
         serwisu Git (github.com). Każda aktualizacja będzie wymagała zbudowania
         nowego obrazu iso.
+      </p>
+      <p>
+        <a href="https://github.com/xf0r3m/immudex-testing">https://github.com/xf0r3m/immudex-testing</a>
       </p>
       <p>
         Zmiana podejścia jest efektem dążenia do pełnej bezkosztowości. Gdzie 
