@@ -80,7 +80,7 @@
       <p>
         Immudex nastawiowny jest na wykorzystanie do przechowywania danych 
         szyfrowanych partycji za pomocą mechanizmu LUKS. Domyślnie
-        przeglądarka WWW (<em>firefox-esr</em>) uruchamiany jest przez
+        przeglądarka WWW (<em>LibreWolf</em>) uruchamiany jest przez
         sandboxer FireJail z własną emulacją stosu TCP/IP. Tak uruchomiana
         przeglądarka nia posiada dostępu do otwartych szyfrowanych partycji.
         Immudex tworzony jest również z myślą o nie narzucaniu rozwiązań
